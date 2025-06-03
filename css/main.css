@@ -2759,3 +2759,20 @@ h6 {
 .switch-wrap p {
   margin: 0;
 }
+
+.products-area {
+    background-color: #f4f7f6; /* Warna abu-abu muda yang sejuk */
+}
+
+.single-product-item {
+    background-color: #ffffff; /* Latar belakang putih untuk kartu */
+    padding: 20px;             /* Padding di dalam kartu */
+    border-radius: 8px;        /* Sudut kartu yang membulat */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* Bayangan halus untuk efek kedalaman */
+    height: 100%; /* Membuat semua kartu memiliki tinggi yang sama jika dalam satu baris */
+    display: flex; 
+    flex-direction: column; 
+}
+
+
+
