@@ -2776,3 +2776,112 @@ h6 {
 
 
 
+/* Footer Area General Styling - Sesuai Gambar Baru */
+.footer-area {
+    background-color: #262626; /* Warna abu-abu gelap pekat, sesuaikan jika perlu */
+    color: #a8a8a8;            /* Warna teks default (abu-abu terang) untuk footer */
+    padding: 60px 0 25px 0;    /* Padding atas/bawah */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Contoh font sans-serif bersih */
+    font-size: 14px;           /* Ukuran font dasar untuk teks di footer */
+}
+
+/* Judul (h6) di Footer: "About Us", "Contact Us" */
+.footer-area h6 {
+    font-size: 16px;
+    color: #ffffff;            /* Putih terang untuk judul */
+    margin-bottom: 20px;
+    font-weight: 600;          /* Sedikit tebal */
+    text-transform: none;      /* Teks normal (tidak uppercase seperti sebelumnya) */
+}
+
+/* Penyesuaian untuk setiap kolom */
+.footer-brand, 
+.footer-about, 
+.footer-contact {
+    margin-bottom: 30px;       /* Jarak bawah saat kolom tersusun di mobile */
+    text-align: left;          /* Konten rata kiri di dalam kolom */
+}
+
+@media (min-width: 768px) { /* md breakpoint (Bootstrap) */
+    .footer-brand, 
+    .footer-about, 
+    .footer-contact {
+        margin-bottom: 0;      /* Hapus margin bawah saat kolom berdampingan */
+    }
+}
+
+/* Bagian Logo Brand */
+.footer-brand .footer-logo {
+    max-width: 230px;          /* Sesuaikan dengan ukuran logo Anda di gambar */
+    margin-bottom: 8px;
+}
+
+.footer-brand .brand-tagline { /* Teks "DjavaGreenyield" di bawah logo */
+    font-size: 13px;
+    color: #7f7f7f;            /* Abu-abu yang lebih redup (sesuai gambar) */
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+/* Bagian About Us */
+.footer-about p {
+    line-height: 1.65;
+    color: #b0b0b0;            /* Abu-abu terang untuk teks paragraf */
+    font-size: 14px;
+}
+
+/* Bagian Contact Us & Link Sosial Media */
+.footer-contact ul.footer-social {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.footer-contact ul.footer-social li {
+    margin-bottom: 12px;       /* Jarak antar item kontak */
+}
+
+.footer-contact ul.footer-social li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-contact ul.footer-social li a {
+    /* Warna link di gambar terlihat seperti warna teks biasa atau biru muda, sesuaikan: */
+    color: #cccccc;            /* Abu-abu sangat terang / putih pudar untuk link */
+    /* color: #6cafff; */     /* Alternatif: jika ingin warna biru muda untuk link */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+    font-size: 14px;
+}
+
+.footer-contact ul.footer-social li a:hover {
+    color: #ffffff;            /* Putih saat hover */
+}
+
+.footer-contact ul.footer-social li a i.fa {
+    margin-right: 10px;
+    font-size: 16px;
+    width: 18px;
+    text-align: center;
+    color: inherit; /* Warna ikon mengikuti warna link */
+}
+
+/* Bagian Copyright di Bawah Footer */
+.footer-bottom {
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #3a3a3a; /* Garis pemisah tipis (warna gelap) */
+    text-align: left;          /* Teks copyright rata kiri (sesuai gambar) */
+}
+
+.copyright-text {
+    font-size: 12px;
+    color: #6c6c6c;            /* Warna abu-abu sangat redup untuk copyright */
+    margin-bottom: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
